@@ -1,0 +1,12 @@
+{
+  "name": "spotIt",
+  "version": "0.0.1",
+  "description": "A spotify quick select utility for macOS.",
+  "main": "main.js",
+  "repository": {
+    "url": "https://github.com/rwoll/spot-it.git",
+    "type": "git"
+  },
+  "author": "rwoll",
+  "license": "MIT"
+}
