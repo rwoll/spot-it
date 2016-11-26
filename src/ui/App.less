@@ -1,0 +1,71 @@
+body {
+  padding-top: 0;
+  margin-top: 0;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.App {
+  width: 600px;
+  height: 450px;
+  background-color: #191414;
+  margin: 0 auto;
+  font-size: 16px;
+  -webkit-app-region: drag;
+}
+
+.searcher {
+  height: 65px;
+  margin: 10px 10px 10px 10px;
+  margin-top: 0;
+}
+
+.searcher__input {
+  height: 65px;
+  font-size: 2.5em;
+  background-color: inherit;
+  color: white;
+  border: none;
+  width: 580px;
+  vertical-align: middle;
+  line-height: 0px;
+}
+
+.searcher__input:focus {
+  outline-width: 0;
+}
+
+.result {
+  /*background-color: #efefef;*/
+  /*background-color: #1DB954;*/
+  margin: 10px 10px 10px 10px;
+  height: 65px;
+  overflow-x: hidden;
+}
+
+.result__state-selected {
+  background-color: #1DB954;
+}
+
+.result__image {
+  vertical-align: middle;
+  padding: 5px 5px;;
+  padding-right: 15px;
+  width: 55px;
+  height: 55px;
+  float: left;
+}
+
+.result__text {
+  padding: 10px 10px 10px 10px;
+  font-size: 1.25em;
+  color: white;
+  vertical-align: middle;
+}
+
+.result__text__sub {
+  font-size: .65em;
+  font-weight: lighter;
+  color: #efefef;
+}

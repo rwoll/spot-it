@@ -1,12 +1,34 @@
 {
-  "name": "spotIt",
+  "name": "SpotIt",
   "version": "0.0.1",
   "description": "A spotify quick select utility for macOS.",
-  "main": "main.js",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron src/es6-init",
+    "package": "./node_modules/.bin/electron-packager-compile ./ --out=./dist --platform=darwin --arch=x64  --ignore=logo.ai --overwrite --icon=./spotIt.icns"
+  },
   "repository": {
     "url": "https://github.com/rwoll/spot-it.git",
     "type": "git"
   },
   "author": "rwoll",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-preset-es2016-node5": "^1.1.2",
+    "babel-preset-react": "^6.16.0",
+    "electron": "^1.4.8",
+    "electron-builder": "^8.6.0",
+    "electron-compilers": "^4.0.5",
+    "electron-packager": "^8.3.0",
+    "electron-prebuilt": "^1.4.8"
+  },
+  "dependencies": {
+    "electron-compile": "^4.0.2",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
 }
