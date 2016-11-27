@@ -21,7 +21,7 @@ class Searcher extends Component {
   render() {
     return (
       <div className='searcher'>
-        <input value={this.props.search} className='searcher__input' onChange={this.updateSearch} placeholder="Let's listen to…"/>
+        <input autoFocus value={this.props.search} className='searcher__input' onChange={this.updateSearch} placeholder="Let's listen to…"/>
       </div>
     );
   }
