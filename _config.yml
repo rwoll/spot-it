@@ -1,0 +1,9 @@
+name:        SpotIt
+tagline:     🎵 A quick jump-to-song utility for Spotify on macOS.
+
+markdown: kramdown
+
+author: rwoll
+gh_repo: rwoll/spotit
+kramdown:
+  input: GFM

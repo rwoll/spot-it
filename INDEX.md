@@ -2,8 +2,8 @@
 layout: basic
 ---
 
-SpotIt
-======
+{{ site.name }}
+===============
 
 *Quickly find a song on Spotify and play it __without__ getting distracted!*
 
