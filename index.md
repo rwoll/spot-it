@@ -7,7 +7,7 @@ layout: basic
 
 *Quickly find a song on Spotify and play it __without__ getting distracted!*
 
-![image](/example.png)
+![demo](https://raw.githubusercontent.com/rwoll/spotit/gh-pages/example.png)
 
 From the demo: [My Teeth Shine Album](https://open.spotify.com/album/5qYA1RLNEiJeXb2q648hWW)
 
